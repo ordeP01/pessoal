@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#23080e">
+  <meta name="description" content="Entre nós. Oito capítulos, muitas memórias e um lugar para guardar o amor.">
+  <title>Entre nós — Um lugar só nosso</title>
+  <link rel="icon" href="assets/heart.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <main id="experience" aria-label="Álbum romântico em oito capítulos"></main>
+  <div class="transition-veil" aria-hidden="true"></div>
+  <footer class="navigation">
+    <div class="chapter-counter"><span id="current-number">01</span><span class="counter-divider"></span><span class="total-number">08</span><span id="chapter-name">O começo de tudo</span></div>
+    <div class="chapter-dots" aria-label="Progresso dos capítulos"></div>
+    <div class="nav-actions"><button id="previous" class="nav-back" aria-label="Capítulo anterior">← <span>Voltar</span></button><button id="next" class="nav-next"><span>Próximo capítulo</span><span aria-hidden="true">→</span></button></div>
+  </footer>
+  <div id="photo-viewer" class="photo-viewer" hidden role="dialog" aria-modal="true" aria-label="Recordação ampliada"><button class="viewer-close" aria-label="Fechar fotografia">Fechar <span>×</span></button><figure class="enlarged-polaroid"><div class="enlarged-image"></div><figcaption></figcaption><p class="photo-date"></p></figure></div>
+  <p class="sr-only" id="announcer" aria-live="polite"></p>
+</body>
+</html>

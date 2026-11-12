@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.sites-runtime/
+.sites-checkout/
+qa/
+.openai/
+dist/assets/um-lugar-so-nosso.wav

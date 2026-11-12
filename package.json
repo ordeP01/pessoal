@@ -1,0 +1,11 @@
+{
+  "name": "entre-nos-album",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Álbum romântico interativo em dez capítulos, sem dependências de runtime.",
+  "scripts": {
+    "start": "node serve.mjs",
+    "check": "node --check dist/app.js && node --check dist/config.js && node --check serve.mjs && node verify.mjs"
+  }
+}
