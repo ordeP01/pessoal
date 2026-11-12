@@ -1,7 +1,7 @@
 // Conteúdo do álbum. A data e alguns textos ainda aguardam personalização.
 export const album = {
   demo: true,
-  couple: { firstName: 'Isabel', secondName: 'Pedro', initials: 'I & P', specialDate: '', displayDate: '' },
+  couple: { firstName: 'Isabel', secondName: 'Pedro', initials: 'I & P', specialDate: '2026-06-14', displayDate: '' },
   opening: { message: 'Clique para abrir essa pequena carta com algumas memórias nossas' },
   invitation: { title: 'Nossa história começa', message: 'Entre tantas pessoas, tantos caminhos e tantos acasos, a vida me trouxe você. Este é um pedacinho do nosso mundo. Feito de memórias, de carinho e de tudo o que ainda vamos viver.', signature: 'Com amor, sempre.' },
   // Fotografias enviadas para o álbum. Legendas e datas podem ser personalizadas.
@@ -37,6 +37,6 @@ export const album = {
   ],
   backgroundMusic: { src:'assets/musica_fundo.mp3', volume:0.55 },
   night: { message:'Mesmo quando tudo escurece, eu encontro luz em você.' },
-  ending: { title:'Trancados pra sempre', message:'Se a vida é feita de instantes, eu quero os meus ao seu lado. Que a gente nunca perca esse jeito de se encontrar, todos os dias.', signature:'Você, eu e tudo o que ainda vem.', lockMessage:'A nossa história continua.' },
+  ending: { title:'Trancados pra sempre', message:'Se a vida é feita de instantes, eu quero os meus ao seu lado. Que a gente nunca perca esse jeito de se encontrar, todos os dias.', signature:'Você, eu e tudo o que ainda vem.', lockMessage:'A nossa história continua.', milestone:'5 meses em 14/11/2026' },
   chapters: ['O começo de tudo','Um convite para nós','Cabine de Fotos','Álbum de recordações','Por que eu te amo?','Apague a luz...','Sorria, meu amor!','Trancados pra sempre']
 };

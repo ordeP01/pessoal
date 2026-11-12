@@ -6,6 +6,6 @@
   "description": "Álbum romântico interativo em dez capítulos, sem dependências de runtime.",
   "scripts": {
     "start": "node serve.mjs",
-    "check": "node --check dist/app.js && node --check dist/config.js && node --check serve.mjs && node verify.mjs"
+    "check": "node --check dist/app.js && node --check dist/config.js && node --check dist/together.js && node --check serve.mjs && node verify.mjs"
   }
 }
